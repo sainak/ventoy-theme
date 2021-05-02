@@ -1,0 +1,84 @@
+{
+    "theme": {
+        "file": "/ventoy/theme/minimal/theme.txt",
+        "gfxmode": "1920x1080",
+        "display_mode": "GUI",
+        "serial_param": "--unit=0 --speed=9600",
+        "ventoy_left": "5%",
+        "ventoy_top": "95%",
+        "ventoy_color": "#7fa7e1",
+        "fonts": [
+            "/ventoy/theme/minimal/terminus-12.pf2",
+            "/ventoy/theme/minimal/terminus-14.pf2",
+            "/ventoy/theme/minimal/terminus-16.pf2"
+        ]
+    },
+    "persistence": [
+        {
+            "image": "/ISO/kali-linux-2021.1-live-amd64.iso",
+            "backend": "/persistence/kali-linux-2021.1_1.dat"
+        }
+    ],
+    "menu_class": [
+        {
+            "key": "kubuntu",
+            "class": "kubuntu"
+        },
+        {
+            "key": "ubuntu",
+            "class": "ubuntu"
+        },
+        {
+            "key": "pop-os",
+            "class": "pop-os"
+        },
+        {
+            "key": "arch",
+            "class": "arch"
+        },
+        {
+            "key": "Fedora",
+            "class": "fedora"
+        },
+        {
+            "key": "kali",
+            "class": "kali"
+        },
+        {
+            "key": "linuxmint",
+            "class": "linuxmint"
+        },
+        {
+            "key": "opensuse",
+            "class": "opensuse"
+        },
+        {
+            "key": "elementary",
+            "class": "elementary"
+        },
+        {
+            "key": "manjaro",
+            "class": "manjaro"
+        },
+        {
+            "key": "debian",
+            "class": "debian"
+        },
+        {
+            "key": "deepin",
+            "class": "deepin"
+        },
+        {
+            "key": "windows",
+            "class": "windows"
+        },
+        {
+            "key": "hirens",
+            "class": "windows"
+        },
+        {
+            "key": "iso",
+            "class": "iso"
+        }
+    ]
+}
